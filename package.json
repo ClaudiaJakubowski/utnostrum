@@ -1,0 +1,26 @@
+{
+  "name": "utnostrum",
+  "version": "1.0.0",
+  "description": "Awesome typescript packages",
+  "homepage": "https://github.com/ClaudiaJakubowski/utnostrum.git",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ClaudiaJakubowski/utnostrum.git"
+  },
+  "author": "TayaTromp",
+  "devDependencies": {
+    "@commitlint/config-lerna-scopes": "^12.1.1",
+    "@types/node": "^15.12.2",
+    "commitizen": "^4.2.3",
+    "commitlint": "^12.1.1",
+    "cz-conventional-changelog": "^3.3.0",
+    "eslint": "^7.25.0",
+    "eslint-config-hjcostabr76": "file:./packages/eslint-config-hjcostabr76",
+    "eslint-ts-naming-convention": "file:packages/eslint-ts-naming-convention",
+    "husky": "^6.0.0",
+    "lerna": "^4.0.0",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.2.4"
+  },
+  "license": "MIT"
+}

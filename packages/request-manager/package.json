@@ -1,0 +1,45 @@
+{
+	"name": "@hjcostabr76/request-manager",
+	"description": "HTTP request management utils",
+	"homepage": "https://github.com/hjcostabr76/ts-utils/packages/request-manager#readme",
+	"author": "hjcostabr76 <hjcosta.dev@gmail.com>",
+	"main": ".dist/index.js",
+	"types": ".dist/index.d.ts",
+	"version": "0.0.1",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/hjcostabr76/ts-utils.git"
+	},
+	"scripts": {
+		"test": "echo \"So far, not so good... There ain't no tests yet :(\"",
+		"build": "npm i && tsc",
+		"upgrade": "npx npm-check-updates -u && npm i",
+		"publish:local": "npm run build & npx yalc push --changed --replace",
+		"clear:local": "npx yalc installations clean @hjcostabr76/request-manager"
+	},
+	"dependencies": {
+		"@hjcostabr76/generics": "0.1.0-beta",
+		"axios": "^0.21.1",
+		"react": "^17.0.2"
+	},
+	"devDependencies": {
+		"@types/lodash": "^4.14.170",
+		"@types/react": "^17.0.11",
+		"lodash": "^4.17.21",
+		"typescript": "^4.3.2"
+	},
+	"files": [
+		".dist/index.js"
+	],
+	"publishConfig": {
+		"access": "public"
+	},
+	"keywords": [
+		"request",
+		"fetch",
+		"axios",
+		"react",
+		"hook"
+	],
+	"license": "MIT"
+}

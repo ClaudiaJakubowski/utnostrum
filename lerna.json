@@ -1,0 +1,17 @@
+{
+  "version": "independent",
+  "npmClient": "npm",
+  "packages": ["packages/*"],
+  "tagVersionPrefix": "",
+  "allowBranch": "main",
+  "command": {
+    "publish": {
+      "ignoreChanges": ["*.md", "*.test"],
+      "message": "feat: publish"
+    },
+    "bootstrap": {
+      "ignore": "",
+      "npmClientArgs": ["--no-package-lock"]
+    }
+  }
+}

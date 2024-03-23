@@ -1,0 +1,54 @@
+{
+    "name": "@hjcostabr76/generics",
+    "description": "Set of utils, helping functions & abstract types",
+    "homepage": "https://github.com/hjcostabr76/ts-utils/packages/generics#readme",
+    "author": "hjcostabr76 <hjcosta.dev@gmail.com>",
+    "main": ".dist/index.js",
+    "types": ".dist/index.d.ts",
+    "version": "0.1.0-beta",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/hjcostabr76/ts-utils.git"
+    },
+    "scripts": {
+        "test": "echo \"Error: So far, not good... There ain't no tests yet :(\"",
+        "build": "npm i && npx tsc",
+        "upgrade": "npx npm-check-updates -u && npm i",
+        "publish:local": "npm run build & npx yalc push --changed --replace",
+		"clear:local": "npx yalc installations clean @hjcostabr76/generics"
+    },
+    "dependencies": {
+        "class-validator": "^0.13.1",
+        "colors": "^1.4.0",
+        "figlet": "^1.5.0",
+        "ts-morph": "^10.0.2"
+    },
+    "devDependencies": {
+        "@types/figlet": "^1.5.1",
+        "@types/node": "^15.12.2",
+        "ts-node": "^9.1.1",
+        "typescript": "^4.2.4"
+    },
+    "publishConfig": {
+        "registry": "https://npm.pkg.github.com",
+        "access": "public"
+    },
+    "files”": [
+        ".dist/index.js",
+        ".dist/enum.js",
+        ".dist/error.js",
+        ".dist/type.js",
+        ".dist/utils.js",
+        ".dist/validation.js"
+    ],
+    "keywords": [
+        "utils",
+        "enum",
+        "type",
+        "helper",
+        "error",
+        "validation",
+        "typescript"
+    ],
+    "license": "MIT"
+}
